@@ -1,0 +1,25 @@
+name: sakhi_safety
+description: Women's safety app prototype (SOS, offline BLE relay, auto-detect, safety heat map).
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.32.0        # BLE scanning (listen for distress packets)
+  flutter_ble_peripheral: ^1.2.0    # BLE advertising (broadcast distress packet)
+  permission_handler: ^11.3.0
+  connectivity_plus: ^6.0.0         # detect network loss
+  sensors_plus: ^6.0.0              # detect impact / fall
+  url_launcher: ^6.2.0              # call 112, open SMS composer
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
