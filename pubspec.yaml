@@ -15,6 +15,19 @@ dependencies:
   connectivity_plus: ^6.0.0         # detect network loss
   sensors_plus: ^6.0.0              # detect impact / fall
   url_launcher: ^6.2.0              # call 112, open SMS composer
+  google_fonts: ^6.2.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_messaging: ^15.1.3
+  flutter_foreground_task: ^10.0.0
+  flutter_local_notifications: ^17.2.3
+  http: ^1.2.2
+  csv: ^6.0.0
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
